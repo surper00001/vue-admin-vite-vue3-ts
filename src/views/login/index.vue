@@ -1,10 +1,4 @@
-<!--
- * @Description: Stay hungry，Stay foolish
- * @Author: Huccct
- * @Date: 2023-05-19 17:38:16
- * @LastEditors: Huccct
- * @LastEditTime: 2023-05-23 22:02:06
--->
+
 <script setup lang="ts">
 import { User, Lock, Warning } from '@element-plus/icons-vue'
 import { Ref, computed, reactive, ref } from 'vue'
