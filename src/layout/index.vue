@@ -22,7 +22,7 @@ let LayOutSettingStore = useLayOutSettingStore()
 <template>
   <el-container class="layout-container-demo" style="height: 100vh">
     <el-aside
-      width="200px"
+      width="220px"
       :class="{ isCollapse: LayOutSettingStore.isCollapse ? true : false }"
     >
       <el-scrollbar>
