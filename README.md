@@ -8,6 +8,11 @@
     <a href="https://github.com/ElemeFE/element">
       <img src="https://img.shields.io/badge/element--plus-2.3.4-brightgreen" alt="element-plus">
     </a>
+       </a>
+    <a href="https://github.com/vitejs/vite">
+      <img src="https://img.shields.io/badge/vite-4.1.4-brightgreen" alt="vite">
+    </a>
+   
   
 </p>
 
