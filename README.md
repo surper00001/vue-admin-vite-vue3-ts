@@ -1,5 +1,5 @@
 <h1 align="center">
-    Vue-Admin
+ TT甄选运营平台
 </h1>
 <p align="center">
     <a href="https://github.com/vuejs/vue">
@@ -8,12 +8,7 @@
     <a href="https://github.com/ElemeFE/element">
       <img src="https://img.shields.io/badge/element--plus-2.3.4-brightgreen" alt="element-plus">
     </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/stars/huccct/vue-admin">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/license/huccct/vue-admin">
-    </a>
+  
 </p>
 
 ## 使用仓库相关命令
