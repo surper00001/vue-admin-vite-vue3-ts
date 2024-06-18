@@ -1,10 +1,4 @@
-<!--
- * @Description: Stay hungry，Stay foolish
- * @Author: Huccct
- * @Date: 2023-05-28 11:47:08
- * @LastEditors: Huccct
- * @LastEditTime: 2023-05-28 22:46:31
--->
+
 <script setup lang="ts">
 import type {
   SpuData,
@@ -22,7 +16,7 @@ import {
   reqAllTradeMark,
   reqSpuImageList,
   reqSpuHasSaleAttr,
-  reqAllSalAttr,
+  reqAllSaleAttr,
   reqAddOrUpdateSpu,
 } from '@/api/product/spu'
 import { ref, computed, nextTick } from 'vue'
@@ -51,7 +45,7 @@ const initHasSpuData = async (spu: SpuData) => {
   let res: AllTradeMark = await reqAllTradeMark()
   let res1: SpuHasImg = await reqSpuImageList(spu.id as number)
   let res2: SaleAttrResponseData = await reqSpuHasSaleAttr(spu.id as number)
-  let res3: HasSaleAttrResponseData = await reqAllSalAttr()
+  let res3: HasSaleAttrResponseData = await reqAllSaleAttr()
 
   AllTradeMark.value = res.data
   imgList.value = res1.data.map((item) => {
@@ -185,7 +179,7 @@ const initAddSpu = async (c3Id: number | string) => {
   saleAttrIdAndValueName.value = ''
   SpuParams.value.category3Id = c3Id
   let res: AllTradeMark = await reqAllTradeMark()
-  let res1: HasSaleAttrResponseData = await reqAllSalAttr()
+  let res1: HasSaleAttrResponseData = await reqAllSaleAttr()
   AllTradeMark.value = res.data
   allSaleAttr.value = res1.data
 }
